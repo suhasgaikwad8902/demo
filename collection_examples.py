@@ -3,7 +3,7 @@ import  json
 '''*************************************deque**************************************'''
 '''
 1.Insertion and deletion from left is additional feature in list'''
-ex = deque([1,2,3,4,5,6])
+ex = deque([1,2,3,4,5,6,7])
 print(ex)
 ex.appendleft(0)
 print(ex)
