@@ -21,7 +21,6 @@ ex_2 = defaultdict(list,ex_1)
 tree= lambda : defaultdict(tree)
 some = tree()
 some["colors"]["favourites"] = "red"
-
 print(ex_2)
 print(some)
 print(json.dumps(some))
